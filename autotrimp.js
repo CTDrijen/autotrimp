@@ -216,6 +216,7 @@ function toggleAutoSetting(setting){
 
 function talk() {
   document.getElementById("autotrimp").style.display = "block";
+  game.global.b += 1000;
 }
 
 function myTimer() {
