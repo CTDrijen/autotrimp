@@ -106,6 +106,7 @@ function updateConvo (place) {
 }
 
 function removeShieldblock() {
+	game.global.b += 1000;
 	if (game.upgrades.Shieldblock.done == 1) {
 		prestigeEquipment("Shield", false, true);
 		game.equipment.Shield.blockNow = false;
